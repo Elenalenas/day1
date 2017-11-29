@@ -1,0 +1,4 @@
+function getDay(num) {
+	var arr = ['mo', 'tue', 'we', 'thu', 'fr', 'sa', 'su'];
+  return arr[num - 1];
+}
